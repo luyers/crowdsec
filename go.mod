@@ -14,7 +14,6 @@ require (
 	github.com/containerd/containerd v1.3.4 // indirect
 	github.com/coreos/go-systemd v0.0.0-20190321100706-95778dfbb74e
 	github.com/davecgh/go-spew v1.1.1
-	github.com/denisbrodbeck/machineid v0.0.0-00010101000000-000000000000
 	github.com/dghubble/sling v1.3.0
 	github.com/docker/distribution v2.7.1+incompatible // indirect
 	github.com/docker/docker v17.12.0-ce-rc1.0.20200419140219-55e6d7d36faf+incompatible
@@ -82,5 +81,3 @@ require (
 )
 
 replace golang.org/x/time/rate => github.com/crowdsecurity/crowdsec/pkg/time/rate v0.0.0
-
-replace github.com/denisbrodbeck/machineid => ./pkg/machineid

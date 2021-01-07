@@ -12,7 +12,7 @@ import (
 	"github.com/AlecAivazis/survey/v2"
 	"github.com/crowdsecurity/crowdsec/pkg/csconfig"
 	"github.com/crowdsecurity/crowdsec/pkg/database"
-	"github.com/denisbrodbeck/machineid"
+	"github.com/crowdsecurity/crowdsec/pkg/machineid"
 	"github.com/enescakir/emoji"
 	"github.com/go-openapi/strfmt"
 	"github.com/olekukonko/tablewriter"
